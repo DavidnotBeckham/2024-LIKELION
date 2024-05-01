@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="Week 2 Assignment.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1></h1>
+      <!--오늘의 날짜를 표현하는 영역-->
+      <div class="box">
+        <div class="addbox" id="todo-form">
+          <input placeholder="할 일 작성하고" id="inputField" />
+          <button type="button" id="adderBtn">추가하기</button>
+          <!--addbox(할일 추가 input과 + 버튼)-->
+        </div>
+        <div class="list-container">
+          <div class="list-box">
+            <span class="subtitle">To Do List</span>
+            <div id="list"></div>
+            <!--추가한 리스트들이 생기는 영역-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Week 2 Assignment.js"></script>
+  </body>
+</html>
