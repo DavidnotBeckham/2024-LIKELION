@@ -1,0 +1,276 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 15px;
+}
+
+.menu_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grey-line {
+  color: #e5e5e5;
+  margin: 0px 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.menu {
+  border: none;
+  margin: 0px 15px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.login_btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  color: #737373;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  display: flex;
+  width: 100%;
+  border: 0.1px solid #e5e5e5;
+}
+
+.section {
+  display: flex;
+  width: 85%;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  margin: 60px auto;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  font-size: 1rem;
+  color: #ff7710;
+  font-weight: 600;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  font-size: 26px;
+  color: #262626;
+  font-weight: bold;
+  line-height: 30%;
+}
+
+.detail {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bannerclick {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #0000004d;
+  width: 80px;
+  top: 400px;
+  padding: 5px;
+  margin-left: 125px;
+}
+
+.bootcamp_img {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.imgcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgbox {
+  display: flex;
+  cursor: pointer;
+  width: 280px;
+  text-align: left;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.imgtitle {
+  font-size: 20px;
+  color: #262626;
+  font-weight: 600;
+}
+
+.imginfo {
+  font-size: 18px;
+  color: #262626;
+  margin: 10px 0;
+  line-height: 150%;
+}
+
+.date {
+  font-size: 16px;
+  color: #a3a3a3;
+  margin: 10px 0;
+}
+
+.infobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.selectcontainer {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+}
+
+.select-class {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.select-class:active {
+  color: #ff7710;
+  text-decoration: underline;
+  text-underline-offset: 0.7em;
+}
+
+.select-month {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.select-month:active {
+  color: #ff7710;
+  text-decoration: underline;
+  text-underline-offset: 0.7em;
+}
+
+.select-info {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+  margin: 30px 0;
+}
+
+.classes {
+  border: 0.2px solid #c4c4c4;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.select {
+  border: 0.2px solid #c4c4c4;
+  border-radius: 10px;
+  width: auto;
+  padding: 15px;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.select:active {
+  border: 0.2px solid #ff7710;
+  color: #ff7710;
+  background-color: #fff7f1;
+}
+
+.recruit {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #1d4ed8;
+  color: #1d4ed8;
+}
+
+.apply {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #059669;
+  color: #059669;
+}

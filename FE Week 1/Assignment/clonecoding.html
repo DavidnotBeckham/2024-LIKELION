@@ -1,0 +1,186 @@
+<!--시맨틱 태그의 요소로는 <header>, <nav>, <article>, <section>, <footer>, <main> 등이 존재합니다. 이러한 시맨틱 태그 요소는 콘텐츠를 논리적 섹션으로 구성하고 각 부분의 역할과 기능을 전달하는 데 도움이 됩니다.
+
+다시 말해, 시맨틱 태그는 HTML의 구조를 설계하는데 있어 태그에 의미를 부여함으로써 웹사이트의 구조를 파악하기 쉽도록 도와주기 위해 만들어진 것입니다.
+
+HTML5 이전에는 <div>, <span>과 같이 콘텐츠 보유 역할은 하지만, 포함된 콘텐츠의 유형이나 해당 콘텐츠가 페이지에서 수행하는 역할에 대해서는 별도로 표시하지 않는 태그를 사용했습니다.-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techit Clonecoding</title>
+    <link rel="STYLESHEET" href="style.css" />
+  </head>
+  <body>
+    <nav> <!--<nav> 태그는 다른 페이지 또는 현재 페이지의 다른 부분과 연결되는 네비게이션 링크(navigation links)들의 집합을 정의할 때 사용합니다. <nav> 요소를 사용하는 일반적인 예로는 메뉴, 목차, 인덱스 등이 있습니다.-->
+      <div class="navbar">
+        <div class="menu_container">
+          <img
+            src="image/logo.png"
+            width="100px"
+            height="18px"
+            class="logo"
+            alt="techit_logo"
+          />
+          <button class="menu">테킷 스쿨</button>
+          <button class="menu">온보딩 트랙</button>
+          <button class="menu">스타트업 스테이션</button>
+          <button class="menu">!T 트렌드</button>
+          <button class="menu">이벤트</button>
+          <div class="grey-line">|</div>
+          <button class="menu">기업해커톤</button>
+        </div>
+
+        <div class="login">
+          <button class="login_btn">로그인</button>
+        </div>
+      </div>
+      <div class="line"></div>
+    </nav>
+
+    <main>
+      <article> <!--<article> 태그는 문서, 페이지, 애플리케이션, 또는 사이트에서 독립적으로 배포 가능하거나 재사용할 수 있는 콘텐츠를 묶는 영역으로 사용됩니다. 예를 들어, 게시판 글, 뉴스 기사, 블로그 글, 댓글 등이 있습니다.-->
+        <div class="banner-container">
+          <img
+            class="banner"
+            src="https://techit.education/_next/image?url=https%3A%2F%2Fd35ai18pny966l.cloudfront.net%2Fcourse%2Fbanner%2Fkakaoevent_240103%2Fhome_banner_1920_event_v2.png&w=3840&q=75 "
+          />
+        </div>
+
+        <button class="bannerclick" type="button">></button>
+      </article>
+
+      <div class="section">
+        <div class="subtitle">KDT 테킷 스쿨</div>
+        <div class="title-box">
+          <p class="title">K-Digital Training 부트캠프</p>
+          <p class="detail">자세히 보기 ></p>
+        </div>
+        <div class="imgcontainer">
+          <div class="imgbox"> <!--여길 아이디가 아니라 클래스로 쓴 게 한 번에 스타일을 묶으려고 했겠네-->
+            <img
+              src="image/blockchain.webp"
+              class="bootcamp_img"
+              alt="blockchain"
+            />
+            <div class="infobox">
+              <div class="recruit">모집중</div>
+              <div class="imgtitle">블록체인 스쿨</div>
+              <div class="imginfo">
+                커리어 변화를 위한 단 하나의 취업 연계 교육
+              </div>
+              <div class="date">24.03.11(월) ~ 24.04.11(목) 까지</div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img
+              src="image/frontend.webp"
+              class="bootcamp_img"
+              alt="frontend"
+            />
+            <div class="infobox">
+              <div class="recruit">모집중</div>
+              <div class="imgtitle">프론트엔드 스쿨</div>
+              <div class="imginfo">
+                핵심 원리로 취업까지! JavaScript 기본기 완전 정복 부트캠프
+              </div>
+              <div class="date">24.03.13(수) ~ 24.04.12(금) 까지</div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img src="image/ios.webp" class="bootcamp_img" alt="ios" />
+            <div class="infobox">
+              <div class="apply">사전알림신청</div>
+              <div class="imgtitle">앱 스쿨 : iOS</div>
+              <div class="imginfo">
+                iOS 개발 실무부터 앱 배포까지 취업에 최적화된 부트캠프
+              </div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img src="image/android.webp" class="bootcamp_img" alt="android" />
+            <div class="infobox">
+              <div class="apply">사전알림신청</div>
+              <div class="imgtitle">앱 스쿨 : Android</div>
+              <div class="imginfo">
+                앱 기초부터 앱 배포까지 실무에 능한 주니어 앱 개발자로 성장
+              </div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img src="image/data.webp" class="bootcamp_img" alt="data" />
+            <div class="infobox">
+              <div class="apply">사전알림신청</div>
+              <div class="imgtitle">데이터분석 스쿨</div>
+              <div class="imginfo">데이터 분석가를 향한 성장의 중심에 서다</div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img src="image/design.webp" class="bootcamp_img" alt="design" />
+            <div class="infobox">
+              <div class="apply">사전알림신청</div>
+              <div class="imgtitle">디자인 스쿨</div>
+              <div class="imginfo">취업에 날개를 다는 UX/UI 실무코스</div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img
+              src="image/frontend_plus.webp"
+              class="bootcamp_img"
+              alt="frontend_plus"
+            />
+            <div class="infobox">
+              <div class="apply">사전알림신청</div>
+              <div class="imgtitle">프론트엔드 스쿨 플러스</div>
+              <div class="imginfo">
+                프론트엔드 개발자로의 한 끗 성장을 위한 라스트마일 과정
+              </div>
+            </div>
+          </div>
+          <div class="imgbox">
+            <img
+              src="image/backend_plus.webp"
+              class="bootcamp_img"
+              alt="backend_plus"
+            />
+            <div class="infobox">
+              <div class="apply">사전알림신청</div>
+              <div class="imgtitle">백엔드 스쿨 플러스</div>
+              <div class="imginfo">
+                백엔드 개발자로의 한 끗 성장을 위한 라스트마일 과정
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="subtitle">테킷 스쿨 일정 확인하기</div>
+        <p class="title">한 눈에 보는 테킷 스쿨 오픈 일정</p>
+        <div class="selectcontainer">
+          <div class="select-class">클래스별</div>
+          <div class="select-month">월별로 보기</div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="select-info">관심있는 클래스를 선택해주세요.</div>
+        <div class="classes">
+          <div class="select">프론트엔드</div>
+          <div class="select">백엔드 : Java</div>
+          <div class="select">백엔드 : Python</div>
+          <div class="select">앱스쿨 : iOS</div>
+          <div class="select">AI 스쿨</div>
+          <div class="select">앱스쿨 : Android</div>
+          <div class="select">데이터 분석</div>
+          <div class="select">디자인</div>
+          <div class="select">블록체인</div>
+          <div class="select">스타트업 스테이션</div>
+          <div class="select">프론트엔드 심화</div>
+          <div class="select">백엔드 심화</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
