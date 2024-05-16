@@ -1,0 +1,152 @@
+.container {
+  width: 70%;
+  height: 100%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: fixed;  
+  background-image: url("./홍문관 사진.JPG");
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 0%;
+  text-align: center;
+  color: skyblue;
+  font-weight: 1000;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: end;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  width: 50%;
+  height: 80%;
+  color: white;
+}
+
+.addbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#inputField {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  color: #000;
+  border: none;
+  border-radius: 0px;
+  padding: 0 10px;  
+}
+
+#adderBtn {
+  width: 100px;
+  height: 30px;
+  background-color: skyblue;
+  font-size: 20px;
+  color: white;
+  font-weight: 1000;
+  border: none;
+  margin: 0 0 0 10px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+}
+
+#list {
+  display: flex;
+  width: 250px;
+  font-size: 15px;
+  max-height: 350px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  color: black;
+  padding: 15px;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.added-form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.mark-btn {
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: skyblue;
+}
+
+#inputLabel {
+  height: 20px;
+  border: 1px solid;
+}
+
+.delete-btn {
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .add-btn1 {
+    display: none;
+  }
+  .add-btn2 {
+    display: absolute;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .add-btn1 {
+    display: block;
+  }
+  .add-btn2 {
+    display: none;
+  }
+}
